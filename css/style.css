@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+.title .one {
+  height: 40px;
+  width: 10px;
+  background-color: #e1e6ea;
+}
+
+.navbar {
+  background-color: #1d2126;
+  color: #23b7a4;
+}
+.navbar .navbar-toggler {
+  border-color: white;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar ul a:not(.active):hover {
+  border: 1px solid #5b6168;
+}
+.navbar ul .active {
+  color: #23b7a4 !important;
+  border: 1px solid #23b7a4;
+}
+
+.landing {
+  background-image: url(../images/pic.png);
+  background-size: cover;
+  height: calc(100vh - 72px);
+  background-position: center center;
+}
+.landing a {
+  border: 1px solid white;
+}
+.landing a:hover {
+  background-color: #23b7a4;
+}
+
+.about .black {
+  color: #5b6168;
+}
+.about svg {
+  width: 20px;
+  height: 20px;
+  background-color: #c8cdd0;
+  margin-right: 1px;
+}
+.about svg:hover {
+  background-color: #d0d5d9;
+}
+.about .num {
+  background-color: #23b7a4;
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  background-color: #e1e6ea;
+  cursor: pointer;
+}
+.card img {
+  border-radius: 0;
+}
+.card:hover {
+  background-color: #1d2126;
+  color: white;
+}
+.card:hover p {
+  color: #c8cdd0 !important;
+}
+.card:hover .layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 33, 38, 0.3) !important;
+}
+.card:hover ul {
+  display: flex !important;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card:hover ul svg {
+  width: 20px;
+  height: 20px;
+  background-color: #1d2126;
+  margin-right: 1px;
+}
+.card:hover ul svg:hover {
+  background-color: #4e5a62;
+}
+
+.work {
+  background-color: #3a454d;
+}
+.work .title .one {
+  background-color: #4e5a62;
+}
+.work .text {
+  transition: 1s;
+  transform: translateY(56px);
+}
+.work .box .image {
+  overflow: hidden;
+}
+.work .box:hover .layer {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgba(29, 33, 38, 0.3) !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.work .box:hover .text {
+  background-color: #1d2126;
+  transform: translateY(0);
+  bottom: 0px;
+}
+.work a {
+  border: 1px solid white;
+}
+.work a:hover {
+  background-color: #23b7a4;
+}
+
+.toDo svg {
+  color: #23b7a4;
+}
+
+.f {
+  background-color: #3a454d;
+}
+.f .title .one {
+  background-color: #4e5a62;
+}
+
+.map .oo {
+  color: #3a454d !important;
+}
+.map input,
+.map textarea {
+  border: none;
+  background-color: #eaeef1;
+  border-radius: 5px;
+}
+.map .btn {
+  background-color: #23b7a4;
+  width: 50%;
+  font-size: 15px !important;
+}
+.map form {
+  top: 22%;
+  right: 7%;
+}
+
+.footer {
+  background-color: #3a454d;
+}
+
+@media (max-width: 991px) {
+  .map form {
+    top: 6%;
+  }
+}
+@media (max-width: 767px) {
+  .map form {
+    position: static !important;
+  }
+}/*# sourceMappingURL=style.css.map */
